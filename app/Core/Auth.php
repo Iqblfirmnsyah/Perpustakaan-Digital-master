@@ -6,15 +6,14 @@ namespace App\Core;
 
 use App\Models\UserModel;
 
-/**
- * Autentikasi pustakawan berbasis session.
- */
+// Autentikasi pustakawan berbasis session.
 final class Auth
 {
     public static function attempt(string $username, string $password): bool
     {
         $user = UserModel::findByUsername($username);
 
+        // password_hash
         if (!$user || !password_verify($password, $user['password_hash'])) {
             return false;
         }

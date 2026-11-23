@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 /**
  * Konfigurasi aplikasi BukuHub.
- * File ini hanya berisi data konfigurasi, tidak ada logika bisnis.
  */
 return [
     'name' => 'BukuHub',

@@ -1,8 +1,7 @@
 <?php
 
 /**
- * Konfigurasi koneksi database (PDO).
- * Sesuaikan nilai di bawah dengan pengaturan MySQL Anda (XAMPP/Laragon).
+ * koneksi database (PDO).
  */
 
 $servername = "localhost";

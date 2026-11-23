@@ -14,7 +14,6 @@ use App\Controllers\SettingsController;
 
 /**
  * Daftar halaman yang boleh diakses.
- * Hanya controller di whitelist ini yang dapat dipanggil dari URL.
  */
 return [
     'login' => AuthController::class,
